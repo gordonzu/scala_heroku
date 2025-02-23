@@ -652,3 +652,42 @@ WARNING: Unmatched cancel notification for request id 225
 2025.02.22 22:10:06 INFO  Shut down connection with build server.[0m
 2025.02.22 22:10:06 INFO  Shut down connection with build server.[0m
 2025.02.22 22:10:06 INFO  Shut down connection with build server.[0m
+2025.02.22 22:11:38 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.22 22:11:39 INFO  Attempting to connect to the build server...[0m
+2025.02.22 22:11:39 INFO  Found a Bloop server running[0m
+2025.02.22 22:11:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 22:11:39 INFO  Attempting to connect to the build server...[0m
+2025.02.22 22:11:39 INFO  Found a Bloop server running[0m
+2025.02.22 22:11:39 INFO  Attempting to connect to the build server...[0m
+2025.02.22 22:11:39 INFO  Found a Bloop server running[0m
+2025.02.22 22:11:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 22:11:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 22:11:39 INFO  time: Connected to build server in 0.32s[0m
+2025.02.22 22:11:39 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 22:11:39 INFO  time: Imported build in 0.11s[0m
+2025.02.22 22:11:39 INFO  running doctor check[0m
+2025.02.22 22:11:39 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 22:11:43 INFO  time: indexed workspace in 3.87s[0m
+2025.02.22 22:11:46 INFO  time: code lens generation in 2.13s[0m
+2025.02.22 22:12:02 INFO  Shutting down server[0m
+2025.02.22 22:12:02 INFO  shutting down Metals[0m
+2025.02.22 22:12:02 INFO  Shut down connection with build server.[0m
+2025.02.22 22:12:02 INFO  Shut down connection with build server.[0m
+2025.02.22 22:12:02 INFO  Shut down connection with build server.[0m
+2025.02.23 09:29:35 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.23 09:29:35 INFO  Attempting to connect to the build server...[0m
+2025.02.23 09:29:35 INFO  No running Bloop server found, starting one.[0m
+2025.02.23 09:29:36 INFO  Starting compilation server[0m
+2025.02.23 09:29:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.23 09:29:38 INFO  Attempting to connect to the build server...[0m
+2025.02.23 09:29:38 INFO  Found a Bloop server running[0m
+2025.02.23 09:29:38 INFO  Attempting to connect to the build server...[0m
+2025.02.23 09:29:38 INFO  Found a Bloop server running[0m
+2025.02.23 09:29:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.23 09:29:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.23 09:29:38 INFO  time: Connected to build server in 2.72s[0m
+2025.02.23 09:29:38 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.23 09:29:38 INFO  time: Imported build in 0.18s[0m
+2025.02.23 09:29:38 INFO  running doctor check[0m
+2025.02.23 09:29:38 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.23 09:29:43 INFO  time: indexed workspace in 4.11s[0m
