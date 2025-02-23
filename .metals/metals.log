@@ -1,0 +1,649 @@
+2025.02.22 20:31:12 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.22 20:31:13 INFO  no build target found for /home/gordonyx/src/scala/heroku-test/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:31:20 INFO  running '/home/gordonyx/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:31:21 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 21.0.6)[0m
+2025.02.22 20:31:21 INFO  [info] loading settings for project heroku-test-build-build-build from metals.sbt...[0m
+2025.02.22 20:31:23 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project/project[0m
+2025.02.22 20:31:24 INFO  [info] loading settings for project heroku-test-build-build from metals.sbt...[0m
+2025.02.22 20:31:24 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project[0m
+2025.02.22 20:31:25 INFO  [success] Generated .bloop/heroku-test-build-build.json[0m
+2025.02.22 20:31:25 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:31:26 PM[0m
+2025.02.22 20:31:25 INFO  [info] loading settings for project heroku-test-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:31:25 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project[0m
+2025.02.22 20:31:27 INFO  [success] Generated .bloop/heroku-test-build.json[0m
+2025.02.22 20:31:27 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:31:28 PM[0m
+2025.02.22 20:31:29 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:31:29 INFO  [info]   __              __[0m
+2025.02.22 20:31:29 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:31:29 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:31:29 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:31:29 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:31:29 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:31:29 INFO  [info] [0m
+2025.02.22 20:31:29 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:31:29 INFO  [info] [0m
+2025.02.22 20:31:29 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:31:29 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:31:29 INFO  [info] [0m
+2025.02.22 20:31:30 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:31:30 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:31:30 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:31:30 PM[0m
+2025.02.22 20:31:31 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+2025.02.22 20:31:31 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:31:31 INFO  Found a Bloop server running[0m
+2025.02.22 20:31:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:31:31 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:31:31 INFO  Found a Bloop server running[0m
+2025.02.22 20:31:31 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:31:31 INFO  Found a Bloop server running[0m
+2025.02.22 20:31:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:31:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:31:31 INFO  time: Connected to build server in 0.39s[0m
+2025.02.22 20:31:31 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 20:31:31 INFO  time: Imported build in 0.11s[0m
+2025.02.22 20:31:31 INFO  running doctor check[0m
+2025.02.22 20:31:31 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 20:31:59 INFO  time: indexed workspace in 28s[0m
+2025.02.22 20:32:01 INFO  time: code lens generation in 2.37s[0m
+2025.02.22 20:35:16 INFO  running '/home/gordonyx/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:35:17 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 21.0.6)[0m
+2025.02.22 20:35:17 INFO  [info] loading settings for project heroku-test-build-build-build from metals.sbt...[0m
+2025.02.22 20:35:18 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project/project[0m
+2025.02.22 20:35:18 INFO  [info] loading settings for project heroku-test-build-build from metals.sbt...[0m
+2025.02.22 20:35:18 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project[0m
+2025.02.22 20:35:20 INFO  [success] Generated .bloop/heroku-test-build-build.json[0m
+2025.02.22 20:35:20 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:35:20 PM[0m
+2025.02.22 20:35:20 INFO  [info] loading settings for project heroku-test-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:35:20 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project[0m
+2025.02.22 20:35:20 INFO  [success] Generated .bloop/heroku-test-build.json[0m
+2025.02.22 20:35:20 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:35:21 PM[0m
+2025.02.22 20:35:23 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:35:23 INFO  [info]   __              __[0m
+2025.02.22 20:35:23 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:35:23 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:35:23 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:35:23 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:35:23 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:35:23 INFO  [info] [0m
+2025.02.22 20:35:23 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:35:23 INFO  [info] [0m
+2025.02.22 20:35:23 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:35:23 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:35:23 INFO  [info] [0m
+2025.02.22 20:35:25 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:35:25 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:35:25 INFO  [success] Total time: 2 s, completed Feb 22, 2025, 8:35:25 PM[0m
+2025.02.22 20:35:26 INFO  time: ran 'sbt bloopInstall' in 9.47s[0m
+2025.02.22 20:35:26 INFO  Disconnecting from Bloop session...[0m
+2025.02.22 20:35:26 INFO  Shut down connection with build server.[0m
+2025.02.22 20:35:26 INFO  Shut down connection with build server.[0m
+2025.02.22 20:35:26 INFO  Shut down connection with build server.[0m
+2025.02.22 20:35:26 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:35:26 INFO  Found a Bloop server running[0m
+2025.02.22 20:35:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:35:26 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:35:26 INFO  Found a Bloop server running[0m
+2025.02.22 20:35:26 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:35:26 INFO  Found a Bloop server running[0m
+2025.02.22 20:35:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:35:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:35:26 INFO  time: Connected to build server in 0.24s[0m
+2025.02.22 20:35:26 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 20:35:26 INFO  running doctor check[0m
+2025.02.22 20:35:26 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 20:35:27 INFO  time: indexed workspace in 1.6s[0m
+2025.02.22 20:36:24 INFO  running '/home/gordonyx/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:36:25 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 21.0.6)[0m
+2025.02.22 20:36:25 INFO  [info] loading settings for project heroku-test-build-build-build from metals.sbt...[0m
+2025.02.22 20:36:26 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project/project[0m
+2025.02.22 20:36:26 INFO  [info] loading settings for project heroku-test-build-build from metals.sbt...[0m
+2025.02.22 20:36:26 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project[0m
+2025.02.22 20:36:29 INFO  [success] Generated .bloop/heroku-test-build-build.json[0m
+2025.02.22 20:36:29 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:36:29 PM[0m
+2025.02.22 20:36:29 INFO  [info] loading settings for project heroku-test-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:36:29 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project[0m
+2025.02.22 20:36:29 INFO  [success] Generated .bloop/heroku-test-build.json[0m
+2025.02.22 20:36:29 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:36:29 PM[0m
+2025.02.22 20:36:31 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:36:31 INFO  [info]   __              __[0m
+2025.02.22 20:36:31 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:36:31 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:36:31 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:36:31 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:36:31 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:36:31 INFO  [info] [0m
+2025.02.22 20:36:31 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:36:31 INFO  [info] [0m
+2025.02.22 20:36:31 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:36:31 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:36:31 INFO  [info] [0m
+2025.02.22 20:36:33 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:36:33 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:36:33 INFO  [success] Total time: 2 s, completed Feb 22, 2025, 8:36:33 PM[0m
+2025.02.22 20:36:33 INFO  time: ran 'sbt bloopInstall' in 9.24s[0m
+2025.02.22 20:36:33 INFO  Disconnecting from Bloop session...[0m
+2025.02.22 20:36:33 INFO  Shut down connection with build server.[0m
+2025.02.22 20:36:33 INFO  Shut down connection with build server.[0m
+2025.02.22 20:36:33 INFO  Shut down connection with build server.[0m
+2025.02.22 20:36:33 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:36:33 INFO  Found a Bloop server running[0m
+2025.02.22 20:36:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:36:33 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:36:33 INFO  Found a Bloop server running[0m
+2025.02.22 20:36:33 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:36:33 INFO  Found a Bloop server running[0m
+2025.02.22 20:36:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:36:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:36:33 INFO  time: Connected to build server in 0.22s[0m
+2025.02.22 20:36:33 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 20:36:34 INFO  running doctor check[0m
+2025.02.22 20:36:34 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 20:36:35 INFO  time: indexed workspace in 1.45s[0m
+2025.02.22 20:36:57 INFO  running '/home/gordonyx/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:36:58 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 21.0.6)[0m
+2025.02.22 20:36:58 INFO  [info] loading settings for project heroku-test-build-build-build from metals.sbt...[0m
+2025.02.22 20:36:59 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project/project[0m
+2025.02.22 20:36:59 INFO  [info] loading settings for project heroku-test-build-build from metals.sbt...[0m
+2025.02.22 20:36:59 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project[0m
+2025.02.22 20:37:02 INFO  [success] Generated .bloop/heroku-test-build-build.json[0m
+2025.02.22 20:37:02 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:37:02 PM[0m
+2025.02.22 20:37:02 INFO  [info] loading settings for project heroku-test-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:37:02 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project[0m
+2025.02.22 20:37:02 INFO  [success] Generated .bloop/heroku-test-build.json[0m
+2025.02.22 20:37:02 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:37:03 PM[0m
+2025.02.22 20:37:04 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:37:04 INFO  [info]   __              __[0m
+2025.02.22 20:37:04 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:37:04 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:37:04 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:37:04 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:37:04 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:37:04 INFO  [info] [0m
+2025.02.22 20:37:04 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:37:04 INFO  [info] [0m
+2025.02.22 20:37:04 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:37:04 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:37:04 INFO  [info] [0m
+2025.02.22 20:37:06 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:37:06 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:37:06 INFO  [success] Total time: 2 s, completed Feb 22, 2025, 8:37:06 PM[0m
+2025.02.22 20:37:07 INFO  time: ran 'sbt bloopInstall' in 9.21s[0m
+2025.02.22 20:37:07 INFO  Disconnecting from Bloop session...[0m
+2025.02.22 20:37:07 INFO  Shut down connection with build server.[0m
+2025.02.22 20:37:07 INFO  Shut down connection with build server.[0m
+2025.02.22 20:37:07 INFO  Shut down connection with build server.[0m
+2025.02.22 20:37:07 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:37:07 INFO  Found a Bloop server running[0m
+2025.02.22 20:37:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:37:07 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:37:07 INFO  Found a Bloop server running[0m
+2025.02.22 20:37:07 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:37:07 INFO  Found a Bloop server running[0m
+2025.02.22 20:37:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:37:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:37:07 INFO  time: Connected to build server in 0.22s[0m
+2025.02.22 20:37:07 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 20:37:06 INFO  running doctor check[0m
+2025.02.22 20:37:06 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 20:37:07 INFO  time: indexed workspace in 1.35s[0m
+2025.02.22 20:38:49 INFO  running '/home/gordonyx/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:38:50 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 21.0.6)[0m
+2025.02.22 20:38:50 INFO  [info] loading settings for project heroku-test-build-build-build from metals.sbt...[0m
+2025.02.22 20:38:51 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project/project[0m
+2025.02.22 20:38:51 INFO  [info] loading settings for project heroku-test-build-build from metals.sbt...[0m
+2025.02.22 20:38:51 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project/project[0m
+2025.02.22 20:38:53 INFO  [success] Generated .bloop/heroku-test-build-build.json[0m
+2025.02.22 20:38:53 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:38:53 PM[0m
+2025.02.22 20:38:53 INFO  [info] loading settings for project heroku-test-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:38:53 INFO  [info] loading project definition from /home/gordonyx/src/scala/heroku-test/project[0m
+2025.02.22 20:38:53 INFO  [success] Generated .bloop/heroku-test-build.json[0m
+2025.02.22 20:38:54 INFO  [success] Total time: 1 s, completed Feb 22, 2025, 8:38:54 PM[0m
+2025.02.22 20:38:56 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:38:56 INFO  [info]   __              __[0m
+2025.02.22 20:38:56 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:38:56 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:38:56 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:38:56 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:38:56 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:38:56 INFO  [info] [0m
+2025.02.22 20:38:56 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:38:56 INFO  [info] [0m
+2025.02.22 20:38:56 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:38:56 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:38:56 INFO  [info] [0m
+2025.02.22 20:38:58 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:38:58 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:38:58 INFO  [success] Total time: 2 s, completed Feb 22, 2025, 8:38:58 PM[0m
+2025.02.22 20:38:59 INFO  time: ran 'sbt bloopInstall' in 9.32s[0m
+2025.02.22 20:38:59 INFO  Disconnecting from Bloop session...[0m
+2025.02.22 20:38:59 INFO  Shut down connection with build server.[0m
+2025.02.22 20:38:59 INFO  Shut down connection with build server.[0m
+2025.02.22 20:38:59 INFO  Shut down connection with build server.[0m
+2025.02.22 20:38:59 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:38:59 INFO  Found a Bloop server running[0m
+2025.02.22 20:38:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:38:59 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:38:59 INFO  Found a Bloop server running[0m
+2025.02.22 20:38:59 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:38:59 INFO  Found a Bloop server running[0m
+2025.02.22 20:38:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:38:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 20:38:59 INFO  time: Connected to build server in 0.22s[0m
+2025.02.22 20:38:59 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 20:38:59 INFO  running doctor check[0m
+2025.02.22 20:38:59 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 20:39:00 INFO  time: indexed workspace in 1.42s[0m
+2025.02.22 20:43:29 INFO  compiling root (7 scala sources and 1 java source)[0m
+2025.02.22 20:43:35 INFO  time: compiled root in 5.91s[0m
+2025.02.22 20:43:52 INFO  compiling root (1 scala source)[0m
+2025.02.22 20:43:52 INFO  time: compiled root in 0.44s[0m
+2025.02.22 20:43:52 INFO  compiling root (1 scala source)[0m
+2025.02.22 20:43:52 INFO  time: compiled root in 1.05s[0m
+2025.02.22 20:44:42 INFO  compiling root (1 scala source)[0m
+2025.02.22 20:44:42 INFO  time: compiled root in 0.73s[0m
+2025.02.22 21:17:32 INFO  Shutting down server[0m
+2025.02.22 21:17:32 INFO  shutting down Metals[0m
+2025.02.22 21:17:32 INFO  Shut down connection with build server.[0m
+2025.02.22 21:17:32 INFO  Shut down connection with build server.[0m
+2025.02.22 21:17:32 INFO  Cancelling compilation on Bloop server[0m
+2025.02.22 21:17:32 INFO  Shut down connection with build server.[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 7921]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 7921]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 7921]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.02.22 21:17:35 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.22 21:17:35 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:17:35 INFO  Found a Bloop server running[0m
+2025.02.22 21:17:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:17:36 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:17:36 INFO  Found a Bloop server running[0m
+2025.02.22 21:17:36 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:17:36 INFO  Found a Bloop server running[0m
+2025.02.22 21:17:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:17:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:17:36 INFO  time: Connected to build server in 0.34s[0m
+2025.02.22 21:17:36 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 21:17:36 INFO  time: Imported build in 0.2s[0m
+2025.02.22 21:17:36 INFO  running doctor check[0m
+2025.02.22 21:17:36 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 21:17:40 INFO  time: indexed workspace in 3.97s[0m
+2025.02.22 21:17:42 INFO  time: code lens generation in 2.31s[0m
+2025.02.22 21:19:10 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:19:10 INFO  time: compiled root in 0.46s[0m
+Feb 22, 2025 9:22:52 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc:  (full report at: /home/gordonyx/src/scala/heroku-test/.metals/.reports/metals-full/2025-02-22/r_empty-definition_(root)_21-22-52-512.md)
+2025.02.22 21:44:37 INFO  Shutting down server[0m
+2025.02.22 21:44:37 INFO  shutting down Metals[0m
+2025.02.22 21:44:37 ERROR /home/gordonyx/src/scala/heroku-test/app/controllers/HomeController.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:927)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2025.02.22 21:44:37 INFO  Shut down connection with build server.[0m
+2025.02.22 21:44:37 INFO  Shut down connection with build server.[0m
+Feb 22, 2025 9:44:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:99)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:459)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:183)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:175)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.SocketChannelImpl.tryWrite(SocketChannelImpl.java:1371)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(SocketChannelImpl.java:1405)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:58)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:53)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:139)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:110)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2025.02.22 21:44:37 INFO  Shut down connection with build server.[0m
+2025.02.22 21:44:37 INFO  Cancelling compilation on Bloop server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 9519]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 9519]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.02.22 21:44:37 INFO  unable to setup persistent H2 database with AUTO_SERVER=true, falling back to AUTO_SERVER=false.[0m
+2025.02.22 21:44:40 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.22 21:44:43 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:44:43 INFO  Found a Bloop server running[0m
+2025.02.22 21:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:44:43 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:44:43 INFO  Found a Bloop server running[0m
+2025.02.22 21:44:43 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:44:43 INFO  Found a Bloop server running[0m
+2025.02.22 21:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:44:43 INFO  time: Connected to build server in 0.36s[0m
+2025.02.22 21:44:43 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 21:44:43 INFO  time: Imported build in 0.15s[0m
+2025.02.22 21:44:43 INFO  running doctor check[0m
+2025.02.22 21:44:43 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 21:44:46 ERROR /home/gordonyx/src/scala/heroku-test/app/controllers/HomeController.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7(Indexer.scala:355)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7$adapted(Indexer.scala:350)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:938)
+	at scala.collection.parallel.Task.$anonfun$tryLeaf$1(Tasks.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.control.Breaks$$anon$1.catchBreak(Breaks.scala:97)
+	at scala.collection.parallel.Task.tryLeaf(Tasks.scala:55)
+	at scala.collection.parallel.Task.tryLeaf$(Tasks.scala:49)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:935)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute(Tasks.scala:152)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute$(Tasks.scala:148)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.compute(Tasks.scala:304)
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[0m
+2025.02.22 21:44:48 INFO  time: indexed workspace in 4.11s[0m
+2025.02.22 21:44:48 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:44:48 INFO  time: compiled root in 0.66s[0m
+2025.02.22 21:44:48 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:44:48 INFO  time: compiled root in 0.15s[0m
+Feb 22, 2025 9:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2025.02.22 21:44:51 INFO  time: code lens generation in 2.21s[0m
+2025.02.22 21:44:57 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:44:57 INFO  time: compiled root in 0.13s[0m
+2025.02.22 21:50:09 ERROR /home/gordonyx/src/scala/heroku-test/app/controllers/HomeController.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:927)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2025.02.22 21:50:09 INFO  Shutting down server[0m
+2025.02.22 21:50:09 INFO  shutting down Metals[0m
+2025.02.22 21:50:09 INFO  Shut down connection with build server.[0m
+2025.02.22 21:50:09 INFO  Shut down connection with build server.[0m
+2025.02.22 21:50:09 INFO  Shut down connection with build server.[0m
+Feb 22, 2025 9:50:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:99)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:459)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:183)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:175)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.SocketChannelImpl.tryWrite(SocketChannelImpl.java:1371)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(SocketChannelImpl.java:1405)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:58)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:53)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:139)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:110)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2025.02.22 21:50:09 INFO  Cancelling compilation on Bloop server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 1502]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6fd02e5[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 1502]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.02.22 21:50:11 INFO  Started: Metals version 1.5.1 in folders '/home/gordonyx/src/scala/heroku-test' for client Neovim 0.11.0-dev+g57f10abbc2.[0m
+2025.02.22 21:50:12 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:50:12 INFO  Found a Bloop server running[0m
+2025.02.22 21:50:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:50:12 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:50:12 INFO  Found a Bloop server running[0m
+2025.02.22 21:50:12 INFO  Attempting to connect to the build server...[0m
+2025.02.22 21:50:12 INFO  Found a Bloop server running[0m
+2025.02.22 21:50:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:50:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gordonyx/src/scala/heroku-test/project/.metals/bsp.trace.json or /home/gordonyx/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:50:12 INFO  time: Connected to build server in 0.32s[0m
+2025.02.22 21:50:12 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.22 21:50:12 INFO  running doctor check[0m
+2025.02.22 21:50:12 INFO  java targets: root-test, root, heroku-test-build-build, heroku-test-build[0m
+2025.02.22 21:50:15 ERROR /home/gordonyx/src/scala/heroku-test/app/controllers/HomeController.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7(Indexer.scala:355)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7$adapted(Indexer.scala:350)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:938)
+	at scala.collection.parallel.Task.$anonfun$tryLeaf$1(Tasks.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.control.Breaks$$anon$1.catchBreak(Breaks.scala:97)
+	at scala.collection.parallel.Task.tryLeaf(Tasks.scala:55)
+	at scala.collection.parallel.Task.tryLeaf$(Tasks.scala:49)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:935)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute(Tasks.scala:152)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute$(Tasks.scala:148)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.compute(Tasks.scala:304)
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[0m
+2025.02.22 21:50:16 INFO  time: indexed workspace in 3.72s[0m
+2025.02.22 21:50:19 INFO  time: code lens generation in 2.09s[0m
+2025.02.22 21:50:28 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:50:28 INFO  time: compiled root in 0.25s[0m
+2025.02.22 21:54:04 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:54:04 INFO  time: compiled root in 0.52s[0m
+2025.02.22 21:54:04 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:54:04 INFO  time: compiled root in 0.25s[0m
+2025.02.22 21:54:29 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:54:29 INFO  time: compiled root in 0.26s[0m
+2025.02.22 21:54:29 INFO  compiling root (1 scala source)[0m
+2025.02.22 21:54:31 INFO  time: compiled root in 1.45s[0m
+2025.02.22 22:04:43 INFO  compiling root (3 scala sources)[0m
+2025.02.22 22:04:47 INFO  time: compiled root in 4.06s[0m
+2025.02.22 22:04:47 INFO  compiling root (1 java source)[0m
+2025.02.22 22:04:48 INFO  time: compiled root in 1.29s[0m
+2025.02.22 22:04:48 INFO  compiling root (3 scala sources)[0m
+2025.02.22 22:04:50 INFO  time: compiled root in 1.38s[0m
+Feb 22, 2025 10:04:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+Feb 22, 2025 10:04:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
